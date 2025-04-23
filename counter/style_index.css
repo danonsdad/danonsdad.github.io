@@ -1,0 +1,100 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: #081b29;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #006064;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 150, 180, 0.2);
+    padding: 30px;
+    width: 350px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+h1 {
+    color: #081b29;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+.click-area {
+    background-color: #e0f7fa;
+    border: 3px dashed #4dd0e1;
+    border-radius: 10px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.click-area:hover {
+    background-color: #b2ebf2;
+}
+
+.click-area:active {
+    transform: scale(0.98);
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.stat-box {
+    background-color: #4dd0e1;
+    color: white;
+    border-radius: 8px;
+    padding: 10px;
+    width: 45%;
+}
+
+.stat-value {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.stat-label {
+    font-size: 14px;
+}
+
+button {
+    background-color: #081b29;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #006064;
+}
+
+.timer {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #00838f;
+}
+
+.instructions {
+    font-size: 14px;
+    color: #00838f;
+    margin-top: 20px;
+}
